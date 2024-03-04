@@ -1,0 +1,6 @@
+base = float(input("Ingrese la longitud de la base de la región lunar en kilómetros: "))
+altura = float(input("Ingrese la altura de la región lunar en kilómetros: "))
+
+area = base * altura
+
+print("El área de la región lunar es de", area, "kilómetros cuadrados.")

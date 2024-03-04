@@ -1,0 +1,5 @@
+nombre = input("Ingrese el nombre de su personaje: ")
+
+pociones = int(input("Ingrese el número de pociones mágicas que posee: "))
+
+print("Hola,", nombre + "tiene", pociones, "pociones mágicas")

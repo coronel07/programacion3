@@ -1,0 +1,9 @@
+print("Calcular en cuánto tiempo llegarias a la Luna.")
+distancia_luna = float(input("La distancia entre la Tierra y la Luna en kilómetros: "))
+
+velocidad_nave = float(input("Ingresa la velocidad de tu nave en kilómetros por hora: "))
+
+tiempo_viaje = distancia_luna / velocidad_nave
+
+print(" tiempo aprox de viajedesde tierra a luna es de", tiempo_viaje, "horas")
+
