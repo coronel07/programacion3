@@ -1,0 +1,11 @@
+print("Bienvenido al programa de determinación del valor del artefacto.")
+print("Por favor, responde a las siguientes preguntas.")
+
+material = input("¿De qué material está hecho el artefacto? (oro/plata/otros) ")
+edad = input("¿Es muy antiguo, antiguo o reciente? ")
+inscripciones = input("¿Hay inscripciones o símbolos extraños? (sí/no) ")
+
+if material.lower() in ["oro", "plata"] and edad.lower() == "muy antiguo" and inscripciones.lower() == "sí":
+    print("¡Es probable que hayas encontrado un tesoro oculto!")
+else:
+    print("El artefacto parece ser simplemente un adorno decorativo.")

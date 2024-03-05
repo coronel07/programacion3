@@ -1,0 +1,9 @@
+
+potencia_hechizo = float(input("Ingresa la potencia de tu hechizo: "))
+resistencia_enemigo = float(input("Ingresa el nivel de resistencia del enemigo: "))
+
+
+if potencia_hechizo >= resistencia_enemigo:
+    print("El hechizo es lo suficientemente fuerte! ¡Has derrotado al enemigo")
+else:
+    print("El hechizo no es lo suficientemente fuerte! ¡Necesitas mejorar para derrotar a este enemigo")
