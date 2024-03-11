@@ -1,0 +1,5 @@
+frutas_encontradas = ("manzana", "banana", "naranja", "pera", "sandía")
+
+print("Frutas encontradas:")
+for fruta in frutas_encontradas:
+    print(fruta)

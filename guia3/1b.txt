@@ -1,0 +1,13 @@
+cristales_preciosos = ["diamante", "esmeralda", "rubí", "zafiro", "esmeralda", "diamante", "topacio"]
+
+cristales_unicos = []
+
+for cristal in cristales_preciosos:
+   
+    if cristal not in cristales_unicos:
+      
+        cristales_unicos.append(cristal)
+
+print("Cristales únicos recolectados:")
+for cristal in cristales_unicos:
+    print(cristal)

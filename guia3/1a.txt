@@ -1,0 +1,11 @@
+monedas= [10, 25, 50, 5, 100, 20]
+
+suma = sum(monedas)
+
+promedio = suma / len(monedas)
+
+moneda_mas_valiosa = max(monedas)
+
+print("Suma total de todas las monedas:", suma)
+print("Promedio de su valor:", promedio)
+print("Moneda más valiosa encontrada:", moneda_mas_valiosa)
