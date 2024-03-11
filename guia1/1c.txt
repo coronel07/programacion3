@@ -1,0 +1,17 @@
+def factorial(n):
+  if n == 0:
+      return 1
+  else:
+      return n * factorial(n-1)
+
+def calcular_combinaciones(n, k):
+  if n < k:
+      return 0
+  else:
+      return factorial(n) // (factorial(k) * factorial(n - k))
+
+# Ejemplo de uso de la función calcular_combinaciones()
+personas = 10
+equipo = 3
+combinaciones = calcular_combinaciones(personas, equipo)
+print(f"El número total de combinaciones posibles de equipos es: {combinaciones}")

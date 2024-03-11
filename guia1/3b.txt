@@ -1,0 +1,18 @@
+def analizar_mensaje(mensaje):
+  palabras_clave_pista = ["tesoro", "mapa", "pista", "descubrir", "buscar"]
+  palabras_clave_distraccion = ["muerte", "peligro", "abandonar", "desesperanza"]
+
+  mensaje = mensaje.lower()
+
+  for palabra in palabras_clave_pista:
+      if palabra in mensaje:
+          return "Este mensaje podría ser una pista útil "
+
+  for palabra in palabras_clave_distraccion:
+      if palabra in mensaje:
+          return "Cuidado , este mensaje parece ser una distracción peligrosa."
+
+  return "No se puede determinar si el mensaje es una pista útil o una distracción"
+
+# Mensaje tallado en la estatua
+mensaje_estatua = "hola ya descubri la pista"
