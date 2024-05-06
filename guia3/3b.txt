@@ -1,0 +1,14 @@
+inscripcion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+frecuencia_letras = {}
+for letra in inscripcion:
+    if letra.isalpha():
+        letra = letra.lower()
+        if letra in frecuencia_letras:
+            frecuencia_letras[letra] += 1
+        else:
+            frecuencia_letras[letra] = 1
+
+print("Frecuencia de cada letra en la inscripción:")
+for letra, frecuencia in frecuencia_letras.items():
+    print(f"{letra}: {frecuencia}")

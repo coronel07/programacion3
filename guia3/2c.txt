@@ -1,0 +1,13 @@
+import math
+
+def cartesianas_a_polares(x, y):
+    radio = math.sqrt(x**2 + y**2)
+    angulo_rad = math.atan2(y, x)
+    angulo_deg = math.degrees(angulo_rad)
+    return radio, angulo_deg
+
+# Ejemplo de uso
+x = 3
+y = 4
+radio, angulo = cartesianas_a_polares(x, y)
+print("Coordenadas polares:", radio, angulo)

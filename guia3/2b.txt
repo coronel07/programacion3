@@ -1,0 +1,8 @@
+coordenadas_lago = (3, 5)
+
+x = coordenadas_lago[0]
+y = coordenadas_lago[1]
+
+print("Coordenadas del lago:")
+print("x:", x)
+print("y:", y)

@@ -1,0 +1,25 @@
+registro_personas = {}
+
+registro_personas["Juan"] = 30
+registro_personas["María"] = 25
+registro_personas["Pedro"] = 35
+
+print("Registro de personas:")
+print(registro_personas)
+
+nombre_a_buscar = "Juan"
+if nombre_a_buscar in registro_personas:
+    print(f"La edad de {nombre_a_buscar} es {registro_personas[nombre_a_buscar]} años.")
+else:
+    print(f"No se encontró a {nombre_a_buscar} en el registro.")
+
+nombre_a_eliminar = "María"
+if nombre_a_eliminar in registro_personas:
+    del registro_personas[nombre_a_eliminar]
+    print(f"{nombre_a_eliminar} ha sido eliminado del registro.")
+else:
+    print(f"{nombre_a_eliminar} no se encontraba en el registro.")
+
+# Imprimir el registro actualizado
+print("Registro actualizado:")
+print(registro_personas)

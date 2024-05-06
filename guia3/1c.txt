@@ -1,0 +1,11 @@
+def monedas_comunes(cofre1, cofre2):
+    set_cofre1 = set(cofre1)
+    set_cofre2 = set(cofre2)
+    monedas_comunes = set_cofre1.intersection(set_cofre2)
+    return list(monedas_comunes)
+
+# Ejemplo de uso
+cofre1 = [1, 2, 3, 4, 5]
+cofre2 = [4, 5, 6, 7, 8]
+resultado = monedas_comunes(cofre1, cofre2)
+print("Monedas comunes en ambos cofres:", resultado)
